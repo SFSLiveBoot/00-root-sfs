@@ -27,6 +27,7 @@ set -e
 
 : ${pkgs_backports:=docker.io tshark wireshark firmware-linux firmware-realtek firmware-intelwimax firmware-bnx2 firmware-iwlwifi firmware-atheros firmware-brcm80211 }
 
+enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -o APT::Get::List-Cleanup=false update
 enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -o APT::Get::List-Cleanup=false -y install $pkgs
 test -z "$pkgs_backports" ||
   enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -o APT::Get::List-Cleanup=false -y install -t ${dist}-backports $pkgs_backports

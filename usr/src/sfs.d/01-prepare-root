@@ -5,6 +5,8 @@
 
 set -e
 
+test ! -s "$DESTDIR/var/lib/dpkg/status" || exit 0
+
 cdebootstrap -f minimal $dist $DESTDIR $repo
 
 cat >"$DESTDIR/etc/apt/sources.list" <<EOF
