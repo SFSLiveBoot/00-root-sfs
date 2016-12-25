@@ -2,11 +2,11 @@ Package: xserver-xorg-video*
 Pin: release a=jessie-backports
 Pin-Priority: 500
 
-Package: libdrm* lib*-mesa*
+Package: libdrm* lib*-mesa* libgbm1
 Pin: release a=jessie-backports
 Pin-Priority: 500
 
-Package: tshark wireshark
+Package: tshark *wireshark*
 Pin: release a=jessie-backports
 Pin-Priority: 500
 
