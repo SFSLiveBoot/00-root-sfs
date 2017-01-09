@@ -2,11 +2,11 @@ Package: xserver-xorg-video*
 Pin: release a=jessie-backports
 Pin-Priority: 500
 
-Package: libdrm* lib*-mesa* libgbm1
+Package: libdrm* lib*-mesa* libgbm* mesa*-dev
 Pin: release a=jessie-backports
 Pin-Priority: 500
 
-Package: tshark *wireshark*
+Package: tshark *wireshark* libws*
 Pin: release a=jessie-backports
 Pin-Priority: 500
 
@@ -19,5 +19,13 @@ Pin: release a=jessie-backports
 Pin-Priority: 500
 
 Package: qemu*
+Pin: release a=jessie-backports
+Pin-Priority: 500
+
+Package: *wine*
+Pin: release a=jessie-backports
+Pin-Priority: 500
+
+Package: *bluez* *pulseaudio* libpulse*
 Pin: release a=jessie-backports
 Pin-Priority: 500
