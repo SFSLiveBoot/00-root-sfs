@@ -42,7 +42,7 @@
 : ${gui_pkgs:=$gnome_pkgs libgtk2.0-bin meld python-gconf libxp6 glx-alternative-nvidia pavucontrol im-config vim-gtk nvidia-installer-cleanup sound-theme-freedesktop ttf-unifont gedit-plugins ibus-gtk twm glx-alternative-fglrx xclip gksu dosbox ibus-input-pad gcalctool python-software-properties xfonts-unifont ibus-wayland xfonts-terminus xserver-xorg-input-wacom xserver-xephyr xserver-xorg-video-qxl xserver-xorg-input-joystick gir1.2-webkit-3.0 pulseaudio-module-x11 zim synaptic ibus-gtk3 xvnc4viewer virtualbox-guest-x11 terminator libfreerdp-plugins-standard mousetweaks libcanberra-gtk-module xpad pulseaudio-module-bluetooth unison-gtk rdesktop gtkterm ddd gparted blueman xzoom virtualbricks xinput mesa-utils task-desktop xterm ghex smart-notifier conky }
 
 # development
-: ${dev_pkgs:=libtool debhelper libasound2-dev python-setuptools python-lazr.restfulclient flex libssl-dev bzr dwarfdump gitk libxml2-dev libncurses5-dev git-gui automake nasm subversion libpcap-dev bundler gdb-multiarch manpages-dev cvs build-essential fakeroot g++ bison mercurial }
+: ${dev_pkgs:=libtool debhelper libasound2-dev python-setuptools python-lazr.restfulclient flex libssl-dev bzr dwarfdump gitk libxml2-dev libncurses5-dev git-gui automake nasm subversion libpcap-dev bundler gdb-multiarch manpages-dev cvs build-essential fakeroot g++ bison mercurial libelf-dev }
 
 # all together
 : ${pkgs:=$libs $base_pkgs $sec_pkgs $gui_pkgs $dev_pkgs }
