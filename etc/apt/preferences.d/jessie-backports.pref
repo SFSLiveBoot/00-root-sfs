@@ -18,7 +18,7 @@ Package: docker.io
 Pin: release a=jessie-backports
 Pin-Priority: 500
 
-Package: qemu*
+Package: qemu* seabios
 Pin: release a=jessie-backports
 Pin-Priority: 500
 
