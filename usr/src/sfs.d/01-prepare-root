@@ -3,9 +3,23 @@
 . "$(dirname "$0")/.common.sh"
 . "$lbu/scripts/common.func"
 
+: ${cdeb_suites:=/usr/share/cdebootstrap/suites}
+: ${cdeb_config:=generic}
+: ${cdeb_keyring:=debian-archive-keyring.gpg}
+
 set -e
 
 test ! -s "$DESTDIR/var/lib/dpkg/status" || exit 0
+
+grep -q "^Suite: $dist$" "$cdeb_suites" || {
+  echo "Adding $dist to $cdeb_suites"
+  cat >>"$cdeb_suites" <<EOF
+Suite: $dist
+Config: $cdeb_config
+Keyring: $cdeb_keyring
+
+EOF
+}
 
 cdebootstrap -f minimal $dist $DESTDIR $repo
 
