@@ -1,0 +1,9 @@
+#!/bin/sh
+
+. "$(dirname "$0")/.common.sh"
+. "$lbu/scripts/common.func"
+
+set -e
+
+test -z "$im_pkgs" ||
+  enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -o APT::Get::List-Cleanup=false -y install $im_pkgs
