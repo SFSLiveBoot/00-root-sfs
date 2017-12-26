@@ -18,7 +18,7 @@
 : ${hw_pkgs:=usbmuxd atmel-firmware firmware-b43-installer pcmciautils hwdata dmidecode socat libimobiledevice-utils ipheth-utils rfkill vbetool fbterm gpm obexfs bluetooth kbd usb-modeswitch firmware-linux firmware-realtek firmware-intelwimax firmware-bnx2 firmware-iwlwifi firmware-atheros firmware-brcm80211 tlp }
 
 # networking
-: ${net_pkgs:=xnbd-client ifenslave-2.6 cifs-utils tcptraceroute freetds-bin hostapd winbind tcpdump tcpxtract aria2 ftp-ssl atftp avahi-utils avahi-autoipd dhcpcd5 dnsmasq xnbd-server ethtool ipcalc ipset iputils-arping ipv6calc ipsec-tools traceroute sshfs ssh msmtp cadaver urlview bridge-utils netcat-openbsd rsync smitools ntpdate madwimax sipcalc snmp-mibs-downloader crda vtun telnet-ssl radvd ndisc6 nfs-kernel-server pppoeconf ldap-utils mysql-client snmp smbclient macchanger tcpreplay tshark curl }
+: ${net_pkgs:=xnbd-client ifenslave-2.6 cifs-utils tcptraceroute freetds-bin hostapd winbind tcpdump tcpxtract aria2 ftp-ssl atftp avahi-utils avahi-autoipd dhcpcd5 dnsmasq xnbd-server ethtool ipcalc ipset iputils-arping ipv6calc ipsec-tools traceroute sshfs ssh msmtp cadaver urlview bridge-utils netcat-openbsd rsync smitools ntpdate madwimax sipcalc snmp-mibs-downloader crda vtun telnet-ssl radvd ndisc6 nfs-kernel-server pppoeconf ldap-utils mysql-client snmp smbclient macchanger tcpreplay tshark curl mosh }
 
 # file format support
 : ${fmt_pkgs:=p7zip-rar unrar exfat-utils cpio nkf pxz elfutils cdrdao lzop lzip gzip binutils-multiarch unzip libxml2-utils genisoimage xsltproc xorriso db-util xmlstarlet exiv2 zip vmfs-tools pax plzip pigz tnef cabextract fuseext2 lzma }
