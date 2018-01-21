@@ -1,0 +1,5 @@
+# required by basic sfs files
+lsb-release acl systemd-sysv coreutils cdebootstrap git lsof
+# required for make-ramdisk
+make binutils busybox udev dmsetup util-linux cryptsetup-bin kmod klibc-utils pciutils
+fakeroot cpio
