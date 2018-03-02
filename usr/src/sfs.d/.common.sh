@@ -6,7 +6,7 @@
 : ${repo:=$(awk '/^deb /{print $2}' $DESTDIR/etc/apt/sources.list | head -1)}
 
 # python libraries
-: ${libs_py:=python-usb python-lzma python-pypcap python-psycopg2 python-netsnmp python-openssl python-pyasn1 python-unicodecsv python-pycurl python-xapian python-m2crypto python-pcapy python-pyxattr python-paramiko python-protobuf python-mysqldb python-fuse python-plist python-enum34 python-serial python-libxml2 python-pylibacl }
+: ${libs_py:=python-usb python-lzma python-pypcap python-psycopg2 python-netsnmp python-openssl python-pyasn1 python-unicodecsv python-pycurl python-xapian python-m2crypto python-pcapy python-pyxattr python-paramiko python-protobuf python-mysqldb python-fuse python-plist python-enum34 python-serial python-libxml2 python-pylibacl python-yaml }
 # perl libraries
 : ${libs_pl:=libcrypt-cbc-perl libarchive-zip-perl libdatetime-perl libperlio-gzip-perl libnet-daemon-perl libjson-xs-perl libparse-win32registry-perl libimage-exiftool-perl libuuid-perl libhtml-parser-perl libjson-perl libcrypt-ssleay-perl }
 # libnss
