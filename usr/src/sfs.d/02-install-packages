@@ -5,9 +5,22 @@
 
 set -e
 
+: "${CHFN:=/usr/bin/chfn}"
+
+test ! -e "${DESTDIR}${CHFN}" || enter_chroot "$DESTDIR" "${CHFN}" -f root root || replace_chfn=true
+
+test -z "$replace_chfn" || {
+  mv "${DESTDIR}${CHFN}" "${DESTDIR}${CHFN}.dist"
+  cp "${DESTDIR}/bin/true" "${DESTDIR}${CHFN}"
+}
+
 enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -o APT::Get::List-Cleanup=false update
 enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -o APT::Get::List-Cleanup=false -y install $pkgs
 test -z "$pkgs_backports" ||
   enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -o APT::Get::List-Cleanup=false -y install -t ${dist}-backports $pkgs_backports
 
 enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
+
+test -z "$replace_chfn" -o ! -e "${DESTDIR}${CHFN}.dist" || {
+  mv "${DESTDIR}${CHFN}.dist" "${DESTDIR}${CHFN}"
+}
