@@ -48,11 +48,14 @@ uuid-runtime uuid tree python-qrcode zbar-tools sl
 
 # security
 tpm-tools opensc opensc-pkcs11 pkcs11-data scdaemon gnupg-pkcs11-scd zerofree chntpw fcrackzip rifiuti2 flashrom
-bluez-hcidump upx-ucl p0f skipfish scrounge-ntfs paxctl scalpel testdisk ewf-tools md5deep medusa geoip-database
+bluez-hcidump upx-ucl p0f skipfish scrounge-ntfs paxctl testdisk md5deep medusa geoip-database
 geoip-bin ike-scan ssldump dns2tcp ext3grep rsh-client netcat-traditional aircrack-ng foremost ophcrack-cli
 android-tools-fastboot pkcs11-dump tsocks dumpasn1 hping3 python-scapy makedumpfile fping kismet-plugins pnscan fpdns
 ssdeep extundelete arpwatch proxychains gvpe nss-passwords mdns-scan ptunnel android-tools-adb dcfldd bkhive ngrep tor
-dirmngr sleuthkit
+dirmngr
+# forensics
+sleuthkit ewf-tools binwalk scalpel libbde-utils libvmdk-utils libevtx-utils liblnk-utils libvhdi-utils libvshadow-utils
+winregfs
 
 # gnome
 eog file-roller vinagre nautilus-share libpam-gnome-keyring gstreamer1.0-libav network-manager-vpnc-gnome libgnomevfs2-0
@@ -62,7 +65,7 @@ gnome-system-monitor ssh-askpass-gnome gnome-disk-utility gnome-nettool network-
 network-manager-pptp-gnome gstreamer1.0-tools gstreamer1.0-plugins-ugly gvfs-backends gvfs-fuse gvfs-bin telepathy-idle
 telepathy-salut telepathy-gabble seahorse baobab gkbd-capplet gnome-terminal gdm3 gnome-control-center brasero cheese
 colord evince empathy gucharmap polari transmission totem-plugins gnome-themes-standard gnome-bluetooth gnome-clocks
-pk-update-icon
+pk-update-icon geary
 
 # programs depending on X11 libraries etc.
 libqtwebkit4 libqt5x11extras5 gphoto2 wireshark tcpflow x11vnc virt-viewer avahi-discover qemu-kvm zenmap dsniff
