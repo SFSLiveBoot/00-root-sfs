@@ -1,0 +1,33 @@
+#!/bin/sh
+
+set -e
+
+: "${lbu:=/opt/LiveBootUtils}"
+. "$lbu/scripts/common.func"
+
+: "${lists_dir:=$dl_cache_dir/lists}"
+: "${apt_cache:=$dl_cache_dir/apt}"
+
+mkdir -p "$lists_dir/partial" "$apt_cache"
+
+apt-get \
+  -o "Dir::Etc::SourceList=$DESTDIR/etc/apt/sources.list" \
+  -o "Dir::Etc::SourceParts=$DESTDIR/etc/apt/sources.list.d" \
+  -o "Dir::State::Lists=$lists_dir" \
+  -o "Dir::Cache=$apt_cache" \
+  -o Acquire::Languages=none \
+  -q -q update
+
+update_list="$(apt-get \
+  -o "Dir::Etc::SourceList=$DESTDIR/etc/apt/sources.list" \
+  -o "Dir::Etc::SourceParts=$DESTDIR/etc/apt/sources.list.d" \
+  -o "Dir::State::Lists=$lists_dir" \
+  -o "Dir::State::status=$DESTDIR/var/lib/dpkg/status" \
+  -q -s dist-upgrade)"
+
+case "$update_list" in
+  *Inst*)
+    echo "$update_list"
+    exit 1
+    ;;
+esac
