@@ -1,7 +1,7 @@
 # python libraries
 python-usb python-lzma python-pypcap python-psycopg2 python-netsnmp python-openssl python-pyasn1 python-unicodecsv
 python-pycurl python-xapian python-m2crypto python-pcapy python-pyxattr python-paramiko python-protobuf python-mysqldb
-python-fuse python-plist python-enum34 python-serial python-libxml2 python-pylibacl python-yaml
+python-fuse python-plist python-enum34 python-serial python-libxml2 python-pylibacl python-yaml python-pip python-wheel
 
 # perl libraries
 libcrypt-cbc-perl libarchive-zip-perl libdatetime-perl libperlio-gzip-perl libnet-daemon-perl libjson-xs-perl
