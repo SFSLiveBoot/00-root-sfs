@@ -30,7 +30,7 @@ p7zip-rar unrar exfat-utils cpio nkf pxz elfutils cdrdao lzop lzip gzip binutils
 genisoimage xsltproc xorriso db-util xmlstarlet exiv2 zip vmfs-tools pax plzip pigz tnef cabextract fuseext2 lzma
 
 # filesystem/disk related
-dump jfsutils dosfstools exfat-fuse lvm2 zfs-fuse reiserfsprogs xfsdump copyfs encfs bindfs e2fsprogs autofs
+dump jfsutils dosfstools exfat-fuse lvm2 zfs-fuse reiserfsprogs btrfs-progs xfsdump copyfs encfs bindfs e2fsprogs autofs
 squashfs-tools mbr kpartx gpart gdisk grub2 grub-efi-amd64-bin mpt-status reiser4progs eject dmraid partimage sdparm
 
 # virtualization
