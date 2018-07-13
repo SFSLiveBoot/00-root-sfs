@@ -23,7 +23,7 @@ xnbd-client ifenslave-2.6 cifs-utils tcptraceroute freetds-bin hostapd winbind t
 avahi-utils avahi-autoipd dhcpcd5 dnsmasq xnbd-server ethtool ipcalc ipset iputils-arping ipv6calc ipsec-tools
 traceroute sshfs ssh msmtp cadaver urlview bridge-utils netcat-openbsd rsync smitools ntpdate madwimax sipcalc
 snmp-mibs-downloader crda vtun telnet-ssl radvd ndisc6 nfs-kernel-server pppoeconf ldap-utils mysql-client snmp
-smbclient macchanger tcpreplay tshark curl mosh
+smbclient macchanger tcpreplay tshark curl mosh bmon conntrack
 
 # file format support
 p7zip-rar unrar exfat-utils cpio nkf pxz elfutils cdrdao lzop lzip gzip binutils-multiarch unzip libxml2-utils
@@ -79,6 +79,7 @@ xserver-xorg-input-wacom xserver-xephyr xserver-xorg-video-qxl xserver-xorg-inpu
 xserver-xorg-video-dummy gir1.2-webkit-3.0 synaptic xvnc4viewer terminator libfreerdp-plugins-standard mousetweaks
 libcanberra-gtk-module xpad pulseaudio-module-bluetooth blueman xzoom xinput mesa-utils task-desktop xterm ghex
 smart-notifier conky xbacklight keepassx glx-alternative-nvidia gtk2-engines-pixbuf
+gir1.2-gnomekeyring-1.0
 
 # development
 libtool debhelper libasound2-dev python-setuptools python-lazr.restfulclient flex libssl-dev bzr dwarfdump libxml2-dev
