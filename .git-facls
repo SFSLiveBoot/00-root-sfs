@@ -1,8 +1,0 @@
-# file: usr/bin/dumpcap
-# owner: root
-# group: netdev
-# flags: s--
-user::rwx
-group::--x
-other::---
-

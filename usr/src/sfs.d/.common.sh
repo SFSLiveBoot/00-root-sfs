@@ -7,5 +7,4 @@
 
 : "${pkgs:=$(sed -Ee 's/(^|[[:space:]])#.*//' "$(dirname "$0")/.pkgs" | grep -v '^$' | tr '\n' ' ')}"
 
-# input_pkgs
-: ${im_pkgs:=ibus-clutter ibus-gtk ibus-input-pad ibus-wayland ibus-gtk3}
+: "${inst_sh:=/.install_pkgs.sh}"

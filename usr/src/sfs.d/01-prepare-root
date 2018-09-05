@@ -27,3 +27,9 @@ cat >"$DESTDIR/etc/apt/sources.list" <<EOF
 deb $repo $dist main contrib non-free
 deb http://security.debian.org/ $dist/updates main contrib non-free
 EOF
+
+test ! -d "$extra_deb_dir" || {
+  mkdir -p "$DESTDIR/$extra_deb_dir" "$DESTDIR/etc/apt/sources.list.d"
+  echo "deb file://${extra_deb_dir} ./" >"$DESTDIR/etc/apt/sources.list.d/$(echo "$extra_deb_dir" | tr / _).list"
+  test "$extra_deb_dir/Packages" -nt "$extra_deb_dir" || (cd "$extra_deb_dir"; dpkg-scanpackages . >Packages)
+}

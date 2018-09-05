@@ -14,12 +14,21 @@ test -z "$replace_chfn" || {
   cp "${DESTDIR}/bin/true" "${DESTDIR}${CHFN}"
 }
 
-enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -o APT::Get::List-Cleanup=false update
-enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -o APT::Get::List-Cleanup=false -y install $pkgs
-test -z "$pkgs_backports" ||
-  enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -o APT::Get::List-Cleanup=false -y install -t ${dist}-backports $pkgs_backports
 
-enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
+cat >"$DESTDIR/$inst_sh" <<EOF
+#!/bin/sh
+
+export DEBIAN_FRONTEND=noninteractive
+apt-get -o APT::Get::List-Cleanup=false update
+apt-get -o APT::Get::List-Cleanup=false -y install $pkgs $pkgs_add
+EOF
+test -z "$pkgs_backports" || echo "apt -o APT::Get::List-Cleanup=false -y install -t ${dist}-backports $pkgs_backports" >>"$DESTDIR/$inst_sh"
+test -z "$pkgs_unauthenticated" || echo "apt-get -o APT::Get::List-Cleanup=false -y install --allow-unauthenticated $pkgs_unauthenticated" >>"$DESTDIR/$inst_sh"
+echo "apt-get -y upgrade" >>"$DESTDIR/$inst_sh"
+test -z "$pkgs_later" || echo "apt-get -o APT::Get::List-Cleanup=false -y install $pkgs_later" >>"$DESTDIR/$inst_sh"
+
+test ! -d "$extra_deb_dir" || mount --bind "$extra_deb_dir" "$DESTDIR/$extra_deb_dir"
+enter_chroot "$DESTDIR" sh -e "$inst_sh"
 
 test -z "$replace_chfn" -o ! -e "${DESTDIR}${CHFN}.dist" || {
   mv "${DESTDIR}${CHFN}.dist" "${DESTDIR}${CHFN}"
