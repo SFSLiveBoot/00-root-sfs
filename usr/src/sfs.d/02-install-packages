@@ -19,6 +19,7 @@ cat >"$DESTDIR/$inst_sh" <<EOF
 #!/bin/sh
 
 export DEBIAN_FRONTEND=noninteractive
+${dpkg_add_arch:+dpkg --add-architecture $dpkg_add_arch}
 apt-get -o APT::Get::List-Cleanup=false update
 apt-get -o APT::Get::List-Cleanup=false -y install $pkgs $pkgs_add
 EOF
