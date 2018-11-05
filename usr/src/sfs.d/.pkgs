@@ -65,15 +65,15 @@ gnome-system-monitor ssh-askpass-gnome gnome-disk-utility gnome-nettool network-
 network-manager-pptp-gnome gstreamer1.0-tools gstreamer1.0-plugins-ugly gvfs-backends gvfs-fuse gvfs-bin telepathy-idle
 telepathy-salut telepathy-gabble seahorse baobab gkbd-capplet gnome-terminal gdm3 gnome-control-center brasero cheese
 colord evince empathy gucharmap polari transmission totem-plugins gnome-themes-standard gnome-bluetooth gnome-clocks
-pk-update-icon geary
+pk-update-icon geary gnome-screensaver
 
 # programs depending on X11 libraries etc.
 libqtwebkit4 libqt5x11extras5 gphoto2 wireshark tcpflow x11vnc virt-viewer avahi-discover qemu-kvm zenmap dsniff
 guymager xvfb ecryptfs-utils wkhtmltopdf mutt ht pcsc-tools consolekit poppler-utils poppler-data sqsh imagemagick gitk
-git-gui meld dosbox zim rdesktop unison-gtk gtkterm ddd gparted virtualbricks libtxc-dxtn-s2tc
+git-gui meld dosbox zim rdesktop unison-gtk gtkterm ddd gparted virtualbricks libtxc-dxtn-s2tc xdg-utils xdg-user-dirs
 
 # other gui
-libgtk2.0-bin python-gconf pavucontrol im-config vim-gtk nvidia-installer-cleanup sound-theme-freedesktop ttf-unifont
+libgtk2.0-bin python-gconf pavucontrol vim-gtk nvidia-installer-cleanup sound-theme-freedesktop ttf-unifont
 gedit-plugins twm xclip gksu gnome-calculator software-properties-common xfonts-unifont xfonts-terminus
 xserver-xorg-input-wacom xserver-xephyr xserver-xorg-video-qxl xserver-xorg-input-joystick xserver-xorg-input-void
 xserver-xorg-video-dummy gir1.2-webkit-3.0 synaptic xvnc4viewer terminator libfreerdp-plugins-standard mousetweaks
