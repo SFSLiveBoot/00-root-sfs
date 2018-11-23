@@ -25,6 +25,7 @@ avahi-utils avahi-autoipd dhcpcd5 dnsmasq xnbd-server ethtool ipcalc ipset iputi
 traceroute sshfs ssh msmtp cadaver urlview bridge-utils netcat-openbsd rsync smitools ntpdate madwimax sipcalc
 snmp-mibs-downloader crda vtun telnet-ssl radvd ndisc6 nfs-kernel-server pppoeconf ldap-utils mysql-client snmp
 smbclient macchanger tcpreplay tshark curl mosh bmon conntrack
+strongswan libcharon-extra-plugins libstrongswan-extra-plugins libstrongswan-standard-plugins
 
 # file format support
 p7zip-rar unrar exfat-utils cpio nkf pxz elfutils cdrdao lzop lzip gzip binutils-multiarch unzip libxml2-utils
@@ -59,28 +60,31 @@ sleuthkit ewf-tools binwalk scalpel libbde-utils libvmdk-utils libevtx-utils lib
 winregfs
 
 # gnome
-eog file-roller vinagre nautilus-share libpam-gnome-keyring gstreamer1.0-libav network-manager-vpnc-gnome libgnomevfs2-0
-gnome-online-accounts gnome-session-flashback network-manager-gnome network-manager-openvpn-gnome
-network-manager-openconnect-gnome gnome-shell-extensions gnome-tweak-tool gnome-shell-timer gnome-screenshot
-gnome-system-monitor ssh-askpass-gnome gnome-disk-utility gnome-nettool network-manager-iodine-gnome gnome-power-manager
-network-manager-pptp-gnome gstreamer1.0-tools gstreamer1.0-plugins-ugly gvfs-backends gvfs-fuse gvfs-bin telepathy-idle
+eog file-roller vinagre nautilus-share libpam-gnome-keyring gstreamer1.0-libav libgnomevfs2-0
+gnome-online-accounts gnome-session-flashback  gnome-shell-extensions gnome-tweak-tool gnome-shell-timer gnome-screenshot
+gnome-system-monitor ssh-askpass-gnome gnome-disk-utility gnome-nettool gnome-power-manager
+gstreamer1.0-tools gstreamer1.0-plugins-ugly gvfs-backends gvfs-fuse gvfs-bin telepathy-idle
 telepathy-salut telepathy-gabble seahorse baobab gkbd-capplet gnome-terminal gdm3 gnome-control-center brasero cheese
 colord evince empathy gucharmap polari transmission totem-plugins gnome-themes-standard gnome-bluetooth gnome-clocks
 pk-update-icon geary gnome-screensaver
+network-manager-vpnc-gnome network-manager-gnome network-manager-openvpn-gnome network-manager-openconnect-gnome
+network-manager-iodine-gnome network-manager-pptp-gnome network-manager-strongswan
 
 # programs depending on X11 libraries etc.
 libqtwebkit4 libqt5x11extras5 gphoto2 wireshark tcpflow x11vnc virt-viewer avahi-discover qemu-kvm zenmap dsniff
 guymager xvfb ecryptfs-utils wkhtmltopdf mutt ht pcsc-tools consolekit poppler-utils poppler-data sqsh imagemagick gitk
 git-gui meld dosbox zim rdesktop unison-gtk gtkterm ddd gparted virtualbricks libtxc-dxtn-s2tc xdg-utils xdg-user-dirs
+dbus-user-session
 
 # other gui
 libgtk2.0-bin python-gconf pavucontrol vim-gtk nvidia-installer-cleanup sound-theme-freedesktop ttf-unifont
 gedit-plugins twm xclip gksu gnome-calculator software-properties-common xfonts-unifont xfonts-terminus
 xserver-xorg-input-wacom xserver-xephyr xserver-xorg-video-qxl xserver-xorg-input-joystick xserver-xorg-input-void
 xserver-xorg-video-dummy gir1.2-webkit-3.0 synaptic xvnc4viewer terminator libfreerdp-plugins-standard mousetweaks
-libcanberra-gtk-module xpad pulseaudio-module-bluetooth blueman xzoom xinput mesa-utils task-desktop xterm ghex
-smart-notifier conky xbacklight keepassx glx-alternative-nvidia gtk2-engines-pixbuf
+libcanberra-gtk-module xpad pulseaudio-module-bluetooth blueman xzoom xinput task-desktop xterm ghex
+smart-notifier conky xbacklight keepassx gtk2-engines-pixbuf
 gir1.2-gnomekeyring-1.0
+mesa-utils mesa-vulkan-drivers vulkan-utils glx-alternative-nvidia
 
 # development
 libtool debhelper libasound2-dev python-setuptools python-lazr.restfulclient flex libssl-dev bzr dwarfdump libxml2-dev
