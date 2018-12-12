@@ -15,7 +15,7 @@ test -z "$replace_chfn" || {
 }
 
 enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -o APT::Get::List-Cleanup=false update
-enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -o APT::Get::List-Cleanup=false -y install $pkgs
+enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -o APT::Get::List-Cleanup=false -y install $pkgs $extra_pkgs
 test -z "$pkgs_backports" ||
   enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -o APT::Get::List-Cleanup=false -y install -t ${dist}-backports $pkgs_backports
 
