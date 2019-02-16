@@ -60,13 +60,13 @@ sleuthkit ewf-tools binwalk scalpel libbde-utils libvmdk-utils libevtx-utils lib
 winregfs
 
 # gnome
-eog file-roller vinagre nautilus-share libpam-gnome-keyring gstreamer1.0-libav libgnomevfs2-0
-gnome-online-accounts gnome-session-flashback  gnome-shell-extensions gnome-tweak-tool gnome-shell-timer gnome-screenshot
+libpam-gnome-keyring libgnomevfs2-0
+gnome-session-flashback gnome-shell-extensions gnome-tweak-tool gnome-screenshot
 gnome-system-monitor ssh-askpass-gnome gnome-disk-utility gnome-nettool gnome-power-manager
-gstreamer1.0-tools gstreamer1.0-plugins-ugly gvfs-backends gvfs-fuse gvfs-bin telepathy-idle
-telepathy-salut telepathy-gabble seahorse baobab gkbd-capplet gnome-terminal gdm3 gnome-control-center brasero cheese
-colord evince empathy gucharmap polari transmission totem-plugins gnome-themes-standard gnome-bluetooth gnome-clocks
-pk-update-icon geary gnome-screensaver
+gvfs-backends gvfs-fuse gvfs-bin
+seahorse gkbd-capplet gnome-terminal gdm3 gnome-control-center
+colord evince gnome-themes-standard gnome-bluetooth
+pk-update-icon gnome-screensaver
 network-manager-vpnc-gnome network-manager-gnome network-manager-openvpn-gnome network-manager-openconnect-gnome
 network-manager-iodine-gnome network-manager-pptp-gnome network-manager-strongswan
 
@@ -76,12 +76,25 @@ guymager xvfb ecryptfs-utils wkhtmltopdf mutt ht pcsc-tools consolekit poppler-u
 git-gui meld dosbox zim rdesktop unison-gtk gtkterm ddd gparted virtualbricks libtxc-dxtn-s2tc xdg-utils xdg-user-dirs
 dbus-user-session
 
+# communication
+gnome-online-accounts
+telepathy-salut telepathy-gabble telepathy-idle
+empathy polari
+geary
+
+# productivity
+nautilus-share
+gnome-clocks gnome-shell-timer
+eog file-roller vinagre brasero cheese baobab transmission gucharmap
+totem-plugins gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools
+gnome-calculator xpad gtg gedit-plugins ghex xzoom
+
 # other gui
 libgtk2.0-bin python-gconf pavucontrol vim-gtk nvidia-installer-cleanup sound-theme-freedesktop ttf-unifont
-gedit-plugins twm xclip gksu gnome-calculator software-properties-common xfonts-unifont xfonts-terminus
+twm xclip gksu software-properties-common xfonts-unifont xfonts-terminus
 xserver-xorg-input-wacom xserver-xephyr xserver-xorg-video-qxl xserver-xorg-input-joystick xserver-xorg-input-void
 xserver-xorg-video-dummy gir1.2-webkit-3.0 synaptic xvnc4viewer terminator libfreerdp-plugins-standard mousetweaks
-libcanberra-gtk-module xpad pulseaudio-module-bluetooth blueman xzoom xinput task-desktop xterm ghex
+libcanberra-gtk-module pulseaudio-module-bluetooth blueman xinput task-desktop xterm
 smart-notifier conky xbacklight keepassx gtk2-engines-pixbuf
 gir1.2-gnomekeyring-1.0
 mesa-utils mesa-vulkan-drivers vulkan-utils glx-alternative-nvidia
