@@ -55,6 +55,7 @@ geoip-bin ike-scan ssldump dns2tcp ext3grep rsh-client netcat-traditional aircra
 android-tools-fastboot pkcs11-dump tsocks dumpasn1 hping3 python-scapy makedumpfile fping kismet-plugins pnscan fpdns
 ssdeep extundelete arpwatch proxychains gvpe nss-passwords mdns-scan ptunnel android-tools-adb dcfldd bkhive ngrep tor
 dirmngr libengine-pkcs11-openssl1.1
+yubico-piv-tool
 # forensics
 sleuthkit ewf-tools binwalk scalpel libbde-utils libvmdk-utils libevtx-utils liblnk-utils libvhdi-utils libvshadow-utils
 winregfs
