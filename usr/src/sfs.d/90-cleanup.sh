@@ -10,3 +10,5 @@ test ! -d "$extra_deb_dir" || {
   rmdir "$DESTDIR/$extra_deb_dir" || true
 }
 rm -f "$DESTDIR/$inst_sh"
+
+test ! -e "$DESTDIR$apt_prx_conf" || rm -f "$DESTDIR$apt_prx_conf"

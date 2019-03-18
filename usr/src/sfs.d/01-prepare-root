@@ -21,6 +21,14 @@ Keyring: $cdeb_keyring
 EOF
 }
 
+test -z "$http_proxy$ftp_proxy" || {
+  mkdir -p "$DESTDIR${apt_prx_conf%/*}"
+  _dq='"'
+  cat >"$DESTDIR$apt_prx_conf" <<EOF
+${http_proxy:+Acquire::http::Proxy ${_dq}${http_proxy}${_dq};}
+${ftp_proxy:+Acquire::ftp::Proxy ${_dq}${ftp_proxy}${_dq};}
+EOF
+}
 cdebootstrap -f minimal $dist $DESTDIR $repo
 
 cat >"$DESTDIR/etc/apt/sources.list" <<EOF
