@@ -46,7 +46,7 @@ hexedit rdiff-backup udpcast nano bar dkms console-data ncurses-base pcregrep si
 libnss3-tools inxi mtr-tiny ebtables netpbm tmux iotop diffutils libpam-ck-connector resolvconf busybox-static screen
 pwgen wamerican-small findutils xml-core runit tre-agrep gnutls-bin htop login lockfile-progs idn irqbalance locales
 lksctp-tools libplist-utils krb5-user libjpeg-turbo-progs less at bc cryptsetup dc expect info sqlite3 time ed vim jq
-uuid-runtime uuid tree python-qrcode zbar-tools sl
+uuid-runtime uuid tree python-qrcode zbar-tools sl xdelta
 
 # security
 opensc opensc-pkcs11 pkcs11-data scdaemon gnupg-pkcs11-scd zerofree chntpw fcrackzip rifiuti2 flashrom
@@ -65,7 +65,7 @@ libpam-gnome-keyring libgnomevfs2-0
 gnome-session-flashback gnome-shell-extensions gnome-tweak-tool gnome-screenshot
 gnome-system-monitor ssh-askpass-gnome gnome-disk-utility gnome-nettool gnome-power-manager
 gvfs-backends gvfs-fuse gvfs-bin
-seahorse gkbd-capplet gnome-terminal gdm3 gnome-control-center
+seahorse seahorse-nautilus gkbd-capplet gnome-terminal gdm3 gnome-control-center
 colord evince gnome-themes-standard gnome-bluetooth
 pk-update-icon gnome-screensaver
 network-manager-vpnc-gnome network-manager-gnome network-manager-openvpn-gnome network-manager-openconnect-gnome
