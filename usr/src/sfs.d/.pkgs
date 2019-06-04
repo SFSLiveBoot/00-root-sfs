@@ -66,7 +66,7 @@ gnome-session-flashback gnome-shell-extensions gnome-tweak-tool gnome-screenshot
 gnome-system-monitor ssh-askpass-gnome gnome-disk-utility gnome-nettool gnome-power-manager
 gvfs-backends gvfs-fuse gvfs-bin
 seahorse seahorse-nautilus gkbd-capplet gnome-terminal gdm3 gnome-control-center
-colord evince gnome-themes-standard gnome-bluetooth
+colord evince gnome-themes-standard gnome-bluetooth gnome-font-viewer
 pk-update-icon gnome-screensaver
 network-manager-vpnc-gnome network-manager-gnome network-manager-openvpn-gnome network-manager-openconnect-gnome
 network-manager-iodine-gnome network-manager-pptp-gnome network-manager-strongswan
