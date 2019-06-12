@@ -104,3 +104,5 @@ mesa-utils mesa-vulkan-drivers vulkan-utils glx-alternative-nvidia
 libtool debhelper libasound2-dev python-setuptools python-lazr.restfulclient flex libssl-dev bzr dwarfdump libxml2-dev
 libncurses5-dev automake nasm subversion libpcap-dev bundler gdb-multiarch manpages-dev cvs build-essential fakeroot g++
 bison mercurial libelf-dev
+zlib1g-dev libbz2-dev
+opencl-c-headers libgmp-dev
