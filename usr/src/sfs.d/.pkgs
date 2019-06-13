@@ -49,7 +49,7 @@ lksctp-tools libplist-utils krb5-user libjpeg-turbo-progs less at bc cryptsetup 
 uuid-runtime uuid tree python-qrcode zbar-tools sl xdelta
 
 # security
-opensc opensc-pkcs11 pkcs11-data scdaemon gnupg-pkcs11-scd zerofree chntpw fcrackzip rifiuti2 flashrom
+opensc opensc-pkcs11 pkcs11-data scdaemon gnupg-pkcs11-scd paperkey zerofree chntpw fcrackzip rifiuti2 flashrom
 bluez-hcidump upx-ucl p0f skipfish scrounge-ntfs paxctl testdisk md5deep medusa geoip-database
 geoip-bin ike-scan ssldump dns2tcp ext3grep rsh-client netcat-traditional aircrack-ng foremost ophcrack-cli
 android-tools-fastboot pkcs11-dump tsocks dumpasn1 hping3 python-scapy makedumpfile fping kismet-plugins pnscan fpdns
