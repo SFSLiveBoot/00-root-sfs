@@ -55,6 +55,7 @@ geoip-bin ike-scan ssldump dns2tcp ext3grep rsh-client netcat-traditional aircra
 android-tools-fastboot pkcs11-dump tsocks dumpasn1 hping3 python-scapy makedumpfile fping kismet-plugins pnscan fpdns
 ssdeep extundelete arpwatch proxychains gvpe nss-passwords mdns-scan ptunnel android-tools-adb dcfldd bkhive ngrep tor
 dirmngr libengine-pkcs11-openssl1.1
+tpm2-tools
 # forensics
 sleuthkit ewf-tools binwalk scalpel libbde-utils libvmdk-utils libevtx-utils liblnk-utils libvhdi-utils libvshadow-utils
 winregfs
@@ -69,6 +70,7 @@ colord evince gnome-themes-standard gnome-bluetooth gnome-font-viewer
 pk-update-icon gnome-screensaver
 network-manager-vpnc-gnome network-manager-gnome network-manager-openvpn-gnome network-manager-openconnect-gnome
 network-manager-pptp-gnome network-manager-strongswan gnome-session
+nautilus-extension-gnome-terminal
 
 # programs depending on X11 libraries etc.
 libqtwebkit4 libqt5x11extras5 gphoto2 wireshark tcpflow x11vnc virt-viewer avahi-discover qemu-kvm zenmap dsniff
@@ -88,6 +90,7 @@ gnome-clocks gnome-shell-timer
 eog file-roller vinagre brasero cheese baobab transmission gucharmap
 totem-plugins gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools
 gnome-calculator xpad gtg gedit-plugins ghex xzoom
+nautilus-compare
 
 # other gui
 libgtk2.0-bin pavucontrol vim-gtk nvidia-installer-cleanup sound-theme-freedesktop ttf-unifont
