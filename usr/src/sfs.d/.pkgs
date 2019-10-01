@@ -46,7 +46,7 @@ hexedit rdiff-backup udpcast nano bar dkms console-data ncurses-base pcregrep si
 libnss3-tools inxi mtr-tiny ebtables netpbm tmux iotop diffutils resolvconf busybox-static screen
 pwgen wamerican-small findutils xml-core runit tre-agrep gnutls-bin htop login lockfile-progs idn irqbalance locales
 lksctp-tools libplist-utils krb5-user libjpeg-turbo-progs less at bc cryptsetup dc expect info sqlite3 time ed vim jq
-uuid-runtime uuid tree python-qrcode zbar-tools sl xdelta
+uuid-runtime uuid tree python-qrcode zbar-tools sl xdelta sudo
 
 # security
 opensc opensc-pkcs11 pkcs11-data scdaemon gnupg-pkcs11-scd paperkey zerofree chntpw fcrackzip rifiuti2 flashrom
@@ -68,7 +68,7 @@ seahorse seahorse-nautilus gkbd-capplet gnome-terminal gdm3 gnome-control-center
 colord evince gnome-themes-standard gnome-bluetooth gnome-font-viewer
 pk-update-icon gnome-screensaver
 network-manager-vpnc-gnome network-manager-gnome network-manager-openvpn-gnome network-manager-openconnect-gnome
-network-manager-pptp-gnome network-manager-strongswan
+network-manager-pptp-gnome network-manager-strongswan gnome-session
 
 # programs depending on X11 libraries etc.
 libqtwebkit4 libqt5x11extras5 gphoto2 wireshark tcpflow x11vnc virt-viewer avahi-discover qemu-kvm zenmap dsniff
