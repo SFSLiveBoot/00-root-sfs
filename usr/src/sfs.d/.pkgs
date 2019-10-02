@@ -97,7 +97,7 @@ libgtk2.0-bin pavucontrol vim-gtk nvidia-installer-cleanup sound-theme-freedeskt
 twm xclip software-properties-common xfonts-unifont xfonts-terminus
 xserver-xorg-input-wacom xserver-xephyr xserver-xorg-video-qxl xserver-xorg-input-joystick xserver-xorg-input-void
 xserver-xorg-video-dummy synaptic xvnc4viewer terminator mousetweaks
-libcanberra-gtk-module pulseaudio-module-bluetooth blueman xinput task-desktop xterm
+libcanberra-gtk-module libcanberra-pulse pulseaudio-module-bluetooth blueman xinput task-desktop xterm
 smart-notifier conky xbacklight keepassx gtk2-engines-pixbuf
 mesa-utils mesa-vulkan-drivers vulkan-utils glx-alternative-nvidia
 
