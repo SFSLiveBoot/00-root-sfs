@@ -17,7 +17,7 @@ libsysfs2 libengine-pkcs11-openssl libgettextpo0 libdb1-compat
 # hardware support
 usbmuxd atmel-firmware firmware-b43-installer pcmciautils hwdata dmidecode socat libimobiledevice-utils ipheth-utils
 rfkill vbetool fbterm gpm obexfs bluetooth kbd usb-modeswitch firmware-linux firmware-realtek firmware-intelwimax
-firmware-bnx2 firmware-iwlwifi firmware-atheros firmware-brcm80211 tlp
+firmware-bnx2 firmware-iwlwifi firmware-atheros firmware-brcm80211 tlp libblockdev-plugins-all
 
 # networking
 xnbd-client ifenslave-2.6 cifs-utils tcptraceroute freetds-bin hostapd winbind tcpdump tcpxtract aria2 ftp atftp
@@ -54,7 +54,7 @@ bluez-hcidump upx-ucl p0f scrounge-ntfs paxctl testdisk md5deep medusa geoip-dat
 geoip-bin ike-scan ssldump dns2tcp ext3grep rsh-client netcat-traditional aircrack-ng foremost ophcrack-cli
 android-tools-fastboot pkcs11-dump tsocks dumpasn1 hping3 python-scapy makedumpfile fping kismet-plugins pnscan fpdns
 ssdeep extundelete arpwatch proxychains gvpe nss-passwords mdns-scan ptunnel android-tools-adb dcfldd bkhive ngrep tor
-dirmngr libengine-pkcs11-openssl1.1
+dirmngr libengine-pkcs11-openssl1.1 libpam-cracklib
 tpm2-tools
 # forensics
 sleuthkit ewf-tools binwalk scalpel libbde-utils libvmdk-utils libevtx-utils liblnk-utils libvhdi-utils libvshadow-utils
