@@ -1,1 +1,5 @@
 .git*
+var/cache/apt/*.bin
+var/log/apt/*
+var/log/*.log
+var/lib/apt/lists/*_*
