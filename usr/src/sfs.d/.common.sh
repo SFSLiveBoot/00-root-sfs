@@ -7,8 +7,8 @@
 
 : "${pkgs:=$(sed -Ee 's/(^|[[:space:]])#.*//' "$(dirname "$0")/.pkgs" | grep -v '^$' | tr '\n' ' ')}"
 
-# input_pkgs
-: ${im_pkgs:=ibus-clutter ibus-gtk ibus-input-pad ibus-wayland ibus-gtk3}
+# packages which have to be installed after others
+test -n "${stage2_pkgs+set}" || stage2_pkgs="ibus-clutter ibus-gtk ibus-input-pad ibus-wayland ibus-gtk3"
 
 # potentially conflicting or problematic services
 : "${disable_defsvc:=strongswan nfs-server hostapd}"

@@ -24,3 +24,6 @@ enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
 test -z "$replace_chfn" -o ! -e "${DESTDIR}${CHFN}.dist" || {
   mv "${DESTDIR}${CHFN}.dist" "${DESTDIR}${CHFN}"
 }
+
+test -z "$stage2_pkgs" ||
+  enter_chroot "$DESTDIR" env DEBIAN_FRONTEND=noninteractive apt-get -o APT::Get::List-Cleanup=false -y install $stage2_pkgs
