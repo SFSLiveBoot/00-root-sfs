@@ -9,3 +9,6 @@
 
 # input_pkgs
 : ${im_pkgs:=ibus-clutter ibus-gtk ibus-input-pad ibus-wayland ibus-gtk3}
+
+# potentially conflicting or problematic services
+: "${disable_defsvc:=strongswan nfs-server hostapd}"
