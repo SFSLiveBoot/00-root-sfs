@@ -17,7 +17,7 @@ libsysfs2 libengine-pkcs11-openssl libgettextpo0 libdb1-compat
 # hardware support
 usbmuxd atmel-firmware firmware-b43-installer pcmciautils hwdata dmidecode socat libimobiledevice-utils ipheth-utils
 rfkill vbetool fbterm gpm obexfs bluetooth kbd usb-modeswitch firmware-linux firmware-realtek firmware-intelwimax
-firmware-bnx2 firmware-iwlwifi firmware-atheros firmware-brcm80211 tlp libblockdev-plugins-all
+firmware-bnx2 firmware-iwlwifi firmware-atheros firmware-brcm80211 tlp libblockdev-plugins-all libu2f-udev
 
 # networking
 xnbd-client ifenslave-2.6 cifs-utils tcptraceroute freetds-bin hostapd winbind tcpdump tcpxtract aria2 ftp atftp
