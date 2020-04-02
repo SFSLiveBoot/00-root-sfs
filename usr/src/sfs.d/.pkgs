@@ -33,7 +33,7 @@ genisoimage xsltproc xorriso db-util xmlstarlet exiv2 zip vmfs-tools pax plzip p
 
 # filesystem/disk related
 dump jfsutils dosfstools exfat-fuse lvm2 zfs-fuse reiserfsprogs btrfs-progs xfsdump copyfs encfs bindfs e2fsprogs autofs fscrypt
-squashfs-tools mbr kpartx gpart gdisk grub2 grub-efi-amd64-bin mpt-status reiser4progs eject dmraid sdparm
+squashfs-tools mbr kpartx gpart gdisk grub2 grub-efi-amd64-bin mpt-status reiser4progs eject dmraid sdparm efibootmgr efivar
 
 # virtualization
 v86d kexec-tools open-vm-tools lxc qemu-utils vde2-cryptcab
