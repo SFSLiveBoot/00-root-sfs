@@ -26,6 +26,7 @@ traceroute sshfs ssh msmtp cadaver urlview bridge-utils netcat-openbsd rsync smi
 snmp-mibs-downloader crda vtun telnet radvd ndisc6 nfs-kernel-server pppoeconf ldap-utils default-mysql-client snmp
 smbclient macchanger tcpreplay tshark curl mosh bmon conntrack
 strongswan libcharon-extra-plugins libstrongswan-extra-plugins libstrongswan-standard-plugins
+wireguard-tools
 
 # file format support
 p7zip-rar unrar exfat-utils cpio nkf xz-utils elfutils cdrdao lzop lzip gzip binutils-multiarch unzip libxml2-utils
@@ -46,7 +47,7 @@ hexedit rdiff-backup udpcast nano bar dkms console-data ncurses-base pcregrep si
 libnss3-tools inxi mtr-tiny ebtables netpbm tmux iotop diffutils resolvconf busybox-static screen
 pwgen wamerican-small findutils xml-core runit tre-agrep gnutls-bin htop login lockfile-progs idn irqbalance locales
 lksctp-tools libplist-utils krb5-user libjpeg-turbo-progs less at bc cryptsetup dc expect info sqlite3 time ed vim jq
-uuid-runtime uuid tree python-qrcode zbar-tools sl xdelta sudo
+uuid-runtime uuid tree python-qrcode zbar-tools sl xdelta sudo lm-sensors qpdf
 
 # security
 opensc opensc-pkcs11 pkcs11-data scdaemon gnupg-pkcs11-scd paperkey zerofree chntpw fcrackzip rifiuti2 flashrom
