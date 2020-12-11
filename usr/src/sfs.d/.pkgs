@@ -72,6 +72,7 @@ pk-update-icon gnome-screensaver
 network-manager-vpnc-gnome network-manager-gnome network-manager-openvpn-gnome network-manager-openconnect-gnome
 network-manager-pptp-gnome network-manager-strongswan gnome-session
 nautilus-extension-gnome-terminal
+evolution evolution-plugins
 
 # programs depending on X11 libraries etc.
 libqtwebkit4 libqt5x11extras5 gphoto2 wireshark tcpflow x11vnc virt-viewer avahi-discover qemu-kvm zenmap dsniff
