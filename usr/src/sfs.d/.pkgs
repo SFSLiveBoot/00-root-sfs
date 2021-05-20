@@ -111,3 +111,4 @@ libncurses5-dev automake nasm subversion libpcap-dev bundler gdb-multiarch manpa
 bison mercurial libelf-dev
 zlib1g-dev libbz2-dev
 opencl-c-headers libgmp-dev
+pkg-config
