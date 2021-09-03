@@ -1,7 +1,7 @@
 # python libraries
-python-usb python-lzma python-pypcap python-psycopg2 python-netsnmp python-openssl python-pyasn1 python-unicodecsv
-python-pycurl python-xapian python-m2crypto python-pcapy python-pyxattr python-paramiko python-protobuf python-mysqldb
-python-fuse python-plist python-enum34 python-serial python-libxml2 python-pylibacl python-yaml python-pip python-wheel
+python3-usb python3-psycopg2 python3-openssl python3-pyasn1 python3-unicodecsv
+python3-pycurl python3-xapian python3-m2crypto python3-pcapy python3-pyxattr python3-paramiko python3-protobuf python3-mysqldb
+python3-fuse python3-plist python3-serial python3-libxml2 python3-pylibacl python3-yaml python3-pip python3-wheel
 python3-wheel python3-pip python3-setuptools python3-lxml
 
 # perl libraries
@@ -20,8 +20,8 @@ rfkill vbetool fbterm gpm obexfs bluetooth kbd usb-modeswitch firmware-linux fir
 firmware-bnx2 firmware-iwlwifi firmware-atheros firmware-brcm80211 tlp libblockdev-plugins-all libu2f-udev
 
 # networking
-xnbd-client ifenslave-2.6 cifs-utils tcptraceroute freetds-bin hostapd winbind tcpdump tcpxtract aria2 ftp atftp
-avahi-utils avahi-autoipd dhcpcd5 dnsmasq xnbd-server ethtool ipcalc ipset iputils-arping ipv6calc
+ifenslave cifs-utils tcptraceroute freetds-bin hostapd winbind tcpdump tcpxtract aria2 ftp atftp
+avahi-utils avahi-autoipd dhcpcd5 dnsmasq ethtool ipcalc ipset iputils-arping ipv6calc
 traceroute sshfs ssh msmtp cadaver urlview bridge-utils netcat-openbsd rsync smitools ntpdate madwimax sipcalc
 snmp-mibs-downloader crda vtun telnet radvd ndisc6 nfs-kernel-server pppoeconf ldap-utils default-mysql-client snmp
 smbclient macchanger tcpreplay tshark curl mosh bmon conntrack
@@ -33,7 +33,7 @@ p7zip-rar unrar exfat-utils cpio nkf xz-utils elfutils cdrdao lzop lzip gzip bin
 genisoimage xsltproc xorriso db-util xmlstarlet exiv2 zip vmfs-tools pax plzip pigz tnef cabextract fuseext2 lzma lz4
 
 # filesystem/disk related
-dump jfsutils dosfstools exfat-fuse lvm2 zfs-fuse reiserfsprogs btrfs-progs xfsdump copyfs encfs bindfs e2fsprogs autofs fscrypt
+dump jfsutils dosfstools exfat-fuse lvm2 zfs-fuse reiserfsprogs btrfs-progs xfsdump encfs bindfs e2fsprogs autofs fscrypt
 squashfs-tools mbr kpartx gpart gdisk grub2 grub-efi-amd64-bin mpt-status reiser4progs eject dmraid sdparm efibootmgr efivar
 ncdu
 
@@ -42,25 +42,26 @@ v86d kexec-tools open-vm-tools lxc qemu-utils vde2-cryptcab
 
 # basic packages
 systemd-sysv vim-tiny strace apt-transport-https klibc-utils libpam-modules-bin grep pcscd base-passwd inotify-tools
-gsfonts ltrace fdupes multitail powertop lsof hostname bash-completion multiarch-support unison sharutils cpuid dash
+gsfonts ltrace fdupes multitail powertop lsof hostname bash-completion unison sharutils cpuid dash
 acpi syslinux bximage pppconfig command-not-found ascii syslinux-common lshw uidmap libmtp-runtime ruby-sqlite3 auditd
 hexedit rdiff-backup udpcast nano bar dkms console-data ncurses-base pcregrep silversearcher-ag alsa-utils cdebootstrap
 libnss3-tools inxi mtr-tiny ebtables netpbm tmux iotop diffutils resolvconf busybox-static screen
 pwgen wamerican-small findutils xml-core runit tre-agrep gnutls-bin htop login lockfile-progs idn irqbalance locales
 lksctp-tools libplist-utils krb5-user libjpeg-turbo-progs less at bc cryptsetup dc expect info sqlite3 time ed vim jq
-uuid-runtime uuid tree python-qrcode zbar-tools sl xdelta sudo lm-sensors qpdf
+uuid-runtime uuid tree python3-qrcode zbar-tools sl xdelta sudo lm-sensors qpdf
 
 # security
 opensc opensc-pkcs11 pkcs11-data scdaemon gnupg-pkcs11-scd paperkey zerofree chntpw fcrackzip rifiuti2 flashrom
 bluez-hcidump upx-ucl p0f scrounge-ntfs paxctl testdisk md5deep medusa geoip-database
 geoip-bin ike-scan ssldump dns2tcp ext3grep rsh-client netcat-traditional aircrack-ng foremost ophcrack-cli
-android-tools-fastboot pkcs11-dump tsocks dumpasn1 hping3 python-scapy makedumpfile fping kismet-plugins pnscan fpdns
-ssdeep extundelete arpwatch proxychains gvpe nss-passwords mdns-scan ptunnel android-tools-adb dcfldd bkhive ngrep tor
+android-tools-fastboot pkcs11-dump tsocks dumpasn1 hping3 python3-scapy makedumpfile fping pnscan fpdns
+ssdeep extundelete arpwatch proxychains gvpe nss-passwords mdns-scan ptunnel android-tools-adb dcfldd samdump2 ngrep tor
 dirmngr libengine-pkcs11-openssl1.1 libpam-cracklib
 tpm2-tools
 # forensics
 sleuthkit ewf-tools binwalk scalpel libbde-utils libvmdk-utils libevtx-utils liblnk-utils libvhdi-utils libvshadow-utils
 winregfs
+nmap
 
 # gnome
 libpam-gnome-keyring
@@ -69,21 +70,21 @@ gnome-system-monitor ssh-askpass-gnome gnome-disk-utility gnome-nettool gnome-po
 gvfs-backends gvfs-fuse gvfs-bin
 seahorse seahorse-nautilus gkbd-capplet gnome-terminal gdm3 gnome-control-center
 colord evince gnome-themes-standard gnome-bluetooth gnome-font-viewer libgdk-pixbuf2.0-bin
-pk-update-icon gnome-screensaver
+package-update-indicator gnome-screensaver
 network-manager-vpnc-gnome network-manager-gnome network-manager-openvpn-gnome network-manager-openconnect-gnome
 network-manager-pptp-gnome network-manager-strongswan gnome-session
 nautilus-extension-gnome-terminal
 evolution evolution-plugins
 
 # programs depending on X11 libraries etc.
-libqtwebkit4 libqt5x11extras5 gphoto2 wireshark tcpflow x11vnc virt-viewer avahi-discover qemu-kvm zenmap dsniff
-guymager xvfb wkhtmltopdf mutt ht pcsc-tools poppler-utils poppler-data sqsh imagemagick gitk
+libqt5x11extras5 gphoto2 wireshark tcpflow x11vnc virt-viewer avahi-discover qemu-kvm dsniff
+guymager xvfb wkhtmltopdf mutt ht pcsc-tools poppler-utils poppler-data imagemagick gitk
 git-gui meld dosbox zim rdesktop unison-gtk gtkterm ddd gparted xdg-utils xdg-user-dirs
 dbus-user-session
 
 # communication
 gnome-online-accounts
-telepathy-salut telepathy-gabble telepathy-idle
+telepathy-salut telepathy-idle
 empathy polari
 geary
 
@@ -92,21 +93,20 @@ nautilus-share
 gnome-clocks gnome-shell-timer
 eog file-roller vinagre brasero cheese baobab transmission gucharmap
 totem-plugins gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools
-gnome-calculator xpad gtg gedit-plugins ghex xzoom
-nautilus-compare
+gnome-calculator xpad gedit-plugins ghex xzoom
 
 # other gui
 libgtk2.0-bin pavucontrol vim-gtk nvidia-installer-cleanup sound-theme-freedesktop ttf-unifont
 twm xclip software-properties-common xfonts-unifont xfonts-terminus
-xserver-xorg-input-wacom xserver-xephyr xserver-xorg-input-joystick xserver-xorg-input-void
-xserver-xorg-video-dummy synaptic xvnc4viewer terminator mousetweaks
+xserver-xorg-input-wacom xserver-xephyr xserver-xorg-input-joystick
+xserver-xorg-video-dummy synaptic tigervnc-viewer terminator mousetweaks
 libcanberra-gtk-module libcanberra-pulse pulseaudio-module-bluetooth blueman xinput task-desktop xterm
 smart-notifier conky xbacklight keepassx gtk2-engines-pixbuf
-mesa-utils mesa-vulkan-drivers vulkan-utils glx-alternative-nvidia
+mesa-utils mesa-vulkan-drivers vulkan-tools glx-alternative-nvidia
 xserver-xorg-video-qxl xserver-xorg-video-intel
 
 # development
-libtool debhelper libasound2-dev python-setuptools python-lazr.restfulclient flex libssl-dev bzr dwarfdump libxml2-dev
+libtool debhelper libasound2-dev python-setuptools python3-lazr.restfulclient flex libssl-dev bzr dwarfdump libxml2-dev
 libncurses5-dev automake nasm subversion libpcap-dev bundler gdb-multiarch manpages-dev cvs build-essential fakeroot g++
 bison mercurial libelf-dev
 zlib1g-dev libbz2-dev

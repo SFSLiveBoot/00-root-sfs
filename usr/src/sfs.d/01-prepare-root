@@ -11,6 +11,8 @@ set -e
 
 test ! -s "$DESTDIR/var/lib/dpkg/status" || exit 0
 
+apt-get update && apt-get -y install $inst_pkgs
+
 grep -q "^Suite: $dist$" "$cdeb_suites" || {
   echo "Adding $dist to $cdeb_suites"
   cat >>"$cdeb_suites" <<EOF
@@ -25,5 +27,5 @@ cdebootstrap -f minimal $dist $DESTDIR $repo
 
 cat >"$DESTDIR/etc/apt/sources.list" <<EOF
 deb $repo $dist main contrib non-free
-deb http://security.debian.org/ $dist/updates main contrib non-free
+${no_sec:+#}deb http://security.debian.org/ $dist/updates main contrib non-free
 EOF
