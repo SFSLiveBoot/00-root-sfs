@@ -75,7 +75,7 @@ package-update-indicator gnome-screensaver
 network-manager-vpnc-gnome network-manager-gnome network-manager-openvpn-gnome network-manager-openconnect-gnome
 network-manager-pptp-gnome network-manager-strongswan gnome-session
 nautilus-extension-gnome-terminal
-evolution evolution-plugins
+evolution evolution-plugins evolution-ews
 
 # programs depending on X11 libraries etc.
 libqt5x11extras5 gphoto2 wireshark tcpflow x11vnc virt-viewer avahi-discover qemu-kvm dsniff
