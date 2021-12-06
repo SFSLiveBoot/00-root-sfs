@@ -81,7 +81,7 @@ evolution evolution-plugins evolution-ews
 libqt5x11extras5 gphoto2 wireshark tcpflow x11vnc virt-viewer avahi-discover qemu-kvm dsniff
 guymager xvfb wkhtmltopdf mutt ht pcsc-tools poppler-utils poppler-data imagemagick gitk
 git-gui meld dosbox zim rdesktop unison-gtk gtkterm ddd gparted xdg-utils xdg-user-dirs
-dbus-user-session
+dbus-user-session peek
 
 # communication
 gnome-online-accounts
