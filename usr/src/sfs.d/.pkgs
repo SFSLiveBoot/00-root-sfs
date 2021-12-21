@@ -59,7 +59,7 @@ ssdeep extundelete arpwatch proxychains gvpe nss-passwords mdns-scan ptunnel and
 dirmngr libengine-pkcs11-openssl1.1 libpam-cracklib
 tpm2-tools libtpm2-pkcs11-1 libtpm2-pkcs11-tools
 ecryptfs-utils
-yubikey-manager
+yubikey-manager ykcs11
 # forensics
 sleuthkit ewf-tools binwalk scalpel libbde-utils libvmdk-utils libevtx-utils liblnk-utils libvhdi-utils libvshadow-utils
 winregfs
