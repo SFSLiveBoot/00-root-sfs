@@ -103,7 +103,7 @@ twm xclip software-properties-common xfonts-unifont xfonts-terminus
 xserver-xorg-input-wacom xserver-xephyr xserver-xorg-input-joystick
 xserver-xorg-video-dummy synaptic tigervnc-viewer terminator mousetweaks
 libcanberra-gtk-module libcanberra-pulse pulseaudio-module-bluetooth blueman xinput task-desktop xterm
-smart-notifier conky xbacklight keepassx gtk2-engines-pixbuf
+smart-notifier conky xbacklight keepassx keepassxc gtk2-engines-pixbuf
 mesa-utils mesa-vulkan-drivers vulkan-tools glx-alternative-nvidia
 xserver-xorg-video-qxl xserver-xorg-video-intel
 
