@@ -49,13 +49,15 @@ libnss3-tools inxi mtr-tiny ebtables netpbm tmux iotop diffutils resolvconf busy
 pwgen wamerican-small findutils xml-core runit tre-agrep gnutls-bin htop login lockfile-progs idn irqbalance locales
 lksctp-tools libplist-utils krb5-user libjpeg-turbo-progs less at bc cryptsetup dc expect info sqlite3 time ed vim jq
 uuid-runtime uuid tree python3-qrcode zbar-tools sl xdelta sudo lm-sensors qpdf pv
+systemd-timesyncd
 
 # security
 opensc opensc-pkcs11 pkcs11-data scdaemon gnupg-pkcs11-scd paperkey zerofree chntpw fcrackzip rifiuti2 flashrom
 bluez-hcidump upx-ucl p0f scrounge-ntfs paxctl testdisk md5deep medusa geoip-database
 geoip-bin ike-scan ssldump dns2tcp ext3grep rsh-client netcat-traditional aircrack-ng foremost ophcrack-cli
 android-tools-fastboot pkcs11-dump tsocks dumpasn1 hping3 python3-scapy makedumpfile fping pnscan fpdns
-ssdeep extundelete arpwatch proxychains gvpe nss-passwords mdns-scan ptunnel android-tools-adb dcfldd samdump2 ngrep tor
+ssdeep extundelete arpwatch gvpe nss-passwords mdns-scan ptunnel android-tools-adb dcfldd samdump2 ngrep
+tor proxychains4 qtox
 dirmngr libengine-pkcs11-openssl1.1 libpam-cracklib
 tpm2-tools libtpm2-pkcs11-1 libtpm2-pkcs11-tools
 ecryptfs-utils
