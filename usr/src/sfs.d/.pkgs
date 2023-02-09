@@ -102,11 +102,11 @@ gnome-sound-recorder
 
 # other gui
 libgtk2.0-bin pavucontrol vim-gtk nvidia-installer-cleanup sound-theme-freedesktop ttf-unifont
-twm xclip software-properties-common xfonts-unifont xfonts-terminus
+twm xclip software-properties-common xfonts-unifont xfonts-terminus fonts-noto-color-emoji
 xserver-xorg-input-wacom xserver-xephyr xserver-xorg-input-joystick
 xserver-xorg-video-dummy synaptic tigervnc-viewer terminator mousetweaks
 libcanberra-gtk-module libcanberra-pulse pulseaudio-module-bluetooth blueman xinput task-desktop xterm
-smart-notifier conky xbacklight keepassx keepassxc gtk2-engines-pixbuf
+smart-notifier conky xbacklight keepassxc gtk2-engines-pixbuf
 mesa-utils mesa-vulkan-drivers vulkan-tools glx-alternative-nvidia
 xserver-xorg-video-qxl xserver-xorg-video-intel
 
