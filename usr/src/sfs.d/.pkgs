@@ -81,10 +81,20 @@ nautilus-extension-gnome-terminal
 evolution evolution-plugins evolution-ews
 
 # programs depending on X11 libraries etc.
-libqt5x11extras5 gphoto2 wireshark tcpflow x11vnc virt-viewer avahi-discover qemu-kvm dsniff
-guymager xvfb wkhtmltopdf mutt ht pcsc-tools poppler-utils poppler-data imagemagick gitk
+libqt5x11extras5 gphoto2 wireshark tcpflow virt-viewer avahi-discover qemu-kvm dsniff
+guymager wkhtmltopdf mutt ht pcsc-tools poppler-utils poppler-data imagemagick gitk
 git-gui meld dosbox zim rdesktop unison-gtk gtkterm ddd gparted xdg-utils xdg-user-dirs
 dbus-user-session peek
+
+## virtual desktop
+tigervnc-scraping-server tigervnc-standalone-server xvfb x11vnc xserver-xephyr
+tigervnc-viewer
+
+## x11 drivers
+xserver-xorg-input-wacom xserver-xorg-input-joystick
+xserver-xorg-video-dummy xserver-xorg-video-qxl xserver-xorg-video-intel
+mesa-utils mesa-vulkan-drivers vulkan-tools glx-alternative-nvidia
+nvidia-installer-cleanup
 
 # communication
 gnome-online-accounts
@@ -101,14 +111,12 @@ gnome-calculator xpad gedit-plugins ghex xzoom
 gnome-sound-recorder
 
 # other gui
-libgtk2.0-bin pavucontrol vim-gtk nvidia-installer-cleanup sound-theme-freedesktop ttf-unifont
-twm xclip software-properties-common xfonts-unifont xfonts-terminus fonts-noto-color-emoji
-xserver-xorg-input-wacom xserver-xephyr xserver-xorg-input-joystick
-xserver-xorg-video-dummy synaptic tigervnc-viewer terminator mousetweaks
+libgtk2.0-bin pavucontrol vim-gtk sound-theme-freedesktop
+twm xclip software-properties-common
+xfonts-unifont xfonts-terminus fonts-noto-color-emoji ttf-unifont
+synaptic terminator mousetweaks
 libcanberra-gtk-module libcanberra-pulse pulseaudio-module-bluetooth blueman xinput task-desktop xterm
 smart-notifier conky xbacklight keepassxc gtk2-engines-pixbuf
-mesa-utils mesa-vulkan-drivers vulkan-tools glx-alternative-nvidia
-xserver-xorg-video-qxl xserver-xorg-video-intel
 
 # development
 libtool debhelper libasound2-dev python-setuptools python3-lazr.restfulclient flex libssl-dev bzr dwarfdump libxml2-dev
