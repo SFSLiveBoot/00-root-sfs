@@ -27,6 +27,7 @@ snmp-mibs-downloader vtun telnet radvd ndisc6 nfs-kernel-server pppoeconf ldap-u
 smbclient macchanger tcpreplay tshark curl mosh bmon conntrack
 strongswan libcharon-extra-plugins libstrongswan-extra-plugins libstrongswan-standard-plugins
 wireguard-tools
+iptables
 
 # file format support
 p7zip-rar unrar cpio nkf xz-utils elfutils cdrdao lzop lzip gzip binutils-multiarch unzip libxml2-utils
