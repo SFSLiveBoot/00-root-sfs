@@ -1,2 +1,0 @@
-deb http://cdn.debian.net/debian bullseye main contrib non-free
-deb http://security.debian.org/ bullseye/updates main contrib non-free

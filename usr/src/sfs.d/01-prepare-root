@@ -29,3 +29,8 @@ cat >"$DESTDIR/etc/apt/sources.list" <<EOF
 deb $repo $dist main contrib non-free
 ${no_sec:+#}deb http://security.debian.org/ $dist/updates main contrib non-free
 EOF
+
+mkdir -p "$DESTDIR/etc/apt/sources.list.d"
+cat >>"$DESTDIR/etc/apt/sources.list.d/backports.list" <<EOF
+${no_bpo:+#}deb http://cdn.debian.net/debian ${dist}-backports main contrib non-free
+EOF

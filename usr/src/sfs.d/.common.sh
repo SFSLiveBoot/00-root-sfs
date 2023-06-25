@@ -2,8 +2,8 @@
 
 : ${lbu:=/opt/LiveBootUtils}
 
-: ${dist:=$(awk '/^deb /{print $3}' $DESTDIR/etc/apt/sources.list | head -1)}
-: ${repo:=$(awk '/^deb /{print $2}' $DESTDIR/etc/apt/sources.list | head -1)}
+: ${dist:=$(awk '/^deb /{print $3}' /etc/apt/sources.list | head -1)}
+: ${repo:=http://cdn.debian.net/debian}
 
 : "${pkgs:=$(sed -Ee 's/(^|[[:space:]])#.*//' "$(dirname "$0")/.pkgs" | grep -v '^$' | tr '\n' ' ')}"
 
