@@ -13,4 +13,4 @@ test -n "${stage2_pkgs+set}" || stage2_pkgs="ibus-clutter ibus-gtk ibus-input-pa
 # potentially conflicting or problematic services
 : "${disable_defsvc:=strongswan nfs-server hostapd}"
 
-: "${inst_pkgs:=cdebootstrap lsof}"
+: "${inst_pkgs:=debootstrap lsof}"
