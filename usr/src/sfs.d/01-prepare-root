@@ -12,11 +12,11 @@ apt-get update && apt-get -y install $inst_pkgs
 debootstrap --variant=minbase $dist $DESTDIR $repo
 
 cat >"$DESTDIR/etc/apt/sources.list" <<EOF
-deb $repo $dist main contrib non-free
-${no_sec:+#}deb http://security.debian.org/debian-security ${dist}-security main contrib non-free non-free-firmware
+deb $repo $dist main contrib non-free non-free-firmware
+${no_sec:+#}deb http://security.debian.org/debian-security ${dist}-security main contrib non-free
 EOF
 
 mkdir -p "$DESTDIR/etc/apt/sources.list.d"
 cat >>"$DESTDIR/etc/apt/sources.list.d/backports.list" <<EOF
-${no_bpo:+#}deb http://cdn.debian.net/debian ${dist}-backports main contrib non-free
+${no_bpo:+#}deb http://cdn.debian.net/debian ${dist}-backports main contrib non-free non-free-firmware
 EOF
