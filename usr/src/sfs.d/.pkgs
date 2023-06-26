@@ -117,7 +117,7 @@ libgtk2.0-bin pavucontrol vim-gtk3 sound-theme-freedesktop
 twm xclip software-properties-common
 xfonts-unifont xfonts-terminus fonts-noto-color-emoji fonts-unifont
 synaptic terminator mousetweaks
-libcanberra-gtk-module libcanberra-pulse pulseaudio-module-bluetooth blueman xinput task-desktop xterm
+libcanberra-gtk-module libcanberra-gtk3-module libcanberra-pulse pulseaudio-module-bluetooth blueman xinput task-desktop xterm
 smart-notifier conky xbacklight keepassxc gtk2-engines-pixbuf
 
 # development
