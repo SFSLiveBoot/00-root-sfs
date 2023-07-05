@@ -50,7 +50,7 @@ libnss3-tools inxi mtr-tiny ebtables netpbm tmux iotop diffutils resolvconf busy
 pwgen wamerican-small findutils xml-core runit tre-agrep gnutls-bin htop login lockfile-progs idn irqbalance locales
 lksctp-tools libplist-utils krb5-user libjpeg-turbo-progs less at bc cryptsetup dc expect info sqlite3 time ed vim jq
 uuid-runtime uuid tree python3-qrcode zbar-tools sl xdelta sudo lm-sensors qpdf pv
-systemd-timesyncd
+systemd-timesyncd xxd python3-venv
 
 # security
 opensc opensc-pkcs11 pkcs11-data scdaemon gnupg-pkcs11-scd paperkey zerofree chntpw fcrackzip rifiuti2 flashrom
