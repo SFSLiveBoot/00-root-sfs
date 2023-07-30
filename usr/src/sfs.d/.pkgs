@@ -58,6 +58,7 @@ bluez-hcidump p0f scrounge-ntfs testdisk md5deep medusa geoip-database
 geoip-bin ike-scan ssldump dns2tcp ext3grep rsh-client netcat-traditional aircrack-ng foremost ophcrack-cli
 android-tools-fastboot pkcs11-dump tsocks dumpasn1 hping3 python3-scapy makedumpfile fping pnscan fpdns
 ssdeep extundelete arpwatch gvpe nss-passwords mdns-scan ptunnel android-tools-adb dcfldd samdump2 ngrep
+android-sdk-platform-tools-common
 tor proxychains4 qtox
 dirmngr
 tpm2-tools libtpm2-pkcs11-1 libtpm2-pkcs11-tools
