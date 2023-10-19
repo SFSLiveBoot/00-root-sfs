@@ -82,7 +82,7 @@ network-manager-pptp-gnome network-manager-strongswan gnome-session
 nautilus-extension-gnome-terminal
 evolution evolution-plugins evolution-ews
 gnome-shell-extension-prefs gnome-shell-extension-appindicator gnome-shell-extension-dashtodock gnome-shell-extension-top-icons-plus
-rtkit wireplumber
+rtkit pipewire-media-session-pulseaudio
 
 # programs depending on X11 libraries etc.
 libqt5x11extras5 gphoto2 wireshark tcpflow virt-viewer avahi-discover qemu-kvm dsniff
