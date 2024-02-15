@@ -88,7 +88,7 @@ rtkit pipewire-media-session-pulseaudio
 libqt5x11extras5 gphoto2 wireshark tcpflow virt-viewer avahi-discover qemu-kvm dsniff
 guymager wkhtmltopdf mutt ht pcsc-tools poppler-utils poppler-data imagemagick gitk
 git-gui meld dosbox zim rdesktop unison-gtk gtkterm ddd gparted xdg-utils xdg-user-dirs
-dbus-user-session peek qdirstat
+dbus-user-session peek qdirstat dbus-x11
 
 ## virtual desktop
 tigervnc-scraping-server tigervnc-standalone-server xvfb x11vnc xserver-xephyr
