@@ -3,3 +3,5 @@ var/cache/apt/*.bin
 var/log/apt/*
 var/log/*.log
 var/lib/apt/lists/*_*
+etc/ssh/ssh_host_*_key*
+etc/machine-id
