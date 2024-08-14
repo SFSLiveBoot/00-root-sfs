@@ -2,7 +2,8 @@
 python3-usb python3-psycopg2 python3-openssl python3-pyasn1 python3-unicodecsv
 python3-pycurl python3-xapian python3-m2crypto python3-pcapy python3-pyxattr python3-paramiko python3-protobuf python3-mysqldb
 python3-fuse python3-plist python3-serial python3-libxml2 python3-pylibacl python3-yaml python3-pip python3-wheel
-python3-wheel python3-pip python3-setuptools python3-lxml python3-pil python3-virtualenv
+python3-wheel python3-pip python3-setuptools python3-lxml python3-pil python3-virtualenv python3-qrcode python3-venv
+python-is-python3
 
 # perl libraries
 libcrypt-cbc-perl libarchive-zip-perl libdatetime-perl libperlio-gzip-perl libnet-daemon-perl libjson-xs-perl
@@ -51,8 +52,8 @@ hexedit rdiff-backup udpcast nano bar dkms console-data ncurses-base pcregrep si
 libnss3-tools inxi mtr-tiny ebtables netpbm tmux iotop diffutils resolvconf busybox-static screen
 pwgen wamerican-small findutils xml-core runit tre-agrep gnutls-bin htop login lockfile-progs idn irqbalance locales
 lksctp-tools libplist-utils krb5-user libjpeg-turbo-progs less at bc cryptsetup dc expect info sqlite3 time ed vim jq yq
-uuid-runtime uuid tree python3-qrcode zbar-tools sl xdelta sudo lm-sensors qpdf pv
-systemd-timesyncd xxd python3-venv
+uuid-runtime uuid tree zbar-tools sl xdelta sudo lm-sensors qpdf pv
+systemd-timesyncd xxd
 
 # security
 opensc opensc-pkcs11 pkcs11-data scdaemon gnupg-pkcs11-scd paperkey zerofree chntpw fcrackzip rifiuti2 flashrom
