@@ -42,7 +42,7 @@ libblockdev-mdraid2 libblockdev-crypto2 efitools
 ncdu
 
 # virtualization
-kexec-tools open-vm-tools lxc qemu-utils vde2-cryptcab
+kexec-tools open-vm-tools lxc qemu-utils vde2-cryptcab ovmf qemu-system-gui
 
 # basic packages
 systemd-sysv vim-tiny strace apt-transport-https klibc-utils libpam-modules-bin grep pcscd base-passwd inotify-tools
