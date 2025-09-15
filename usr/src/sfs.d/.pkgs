@@ -1,5 +1,5 @@
 # python libraries
-python3-usb python3-psycopg2 python3-openssl python3-pyasn1 python3-unicodecsv
+python3-usb python3-psycopg2 python3-openssl python3-pyasn1
 python3-pycurl python3-xapian python3-m2crypto python3-pcapy python3-pyxattr python3-paramiko python3-protobuf python3-mysqldb
 python3-fuse python3-plist python3-serial python3-libxml2 python3-pylibacl python3-yaml python3-pip python3-wheel
 python3-wheel python3-pip python3-setuptools python3-lxml python3-pil python3-virtualenv python3-qrcode python3-venv
@@ -22,10 +22,10 @@ firmware-iwlwifi firmware-ath9k-htc firmware-brcm80211 tlp libu2f-udev firmware-
 firmware-atheros firmware-sof-signed
 
 # networking
-ifenslave cifs-utils tcptraceroute freetds-bin hostapd wpasupplicant winbind tcpdump tcpxtract aria2 ftp atftp
+ifenslave cifs-utils tcptraceroute freetds-bin hostapd wpasupplicant winbind tcpdump aria2 ftp atftp
 avahi-utils avahi-autoipd dhcpcd5 dnsmasq ethtool ipcalc ipset iputils-arping ipv6calc
-traceroute sshfs ssh msmtp cadaver urlview bridge-utils netcat-openbsd rsync smitools ntpdate madwimax sipcalc
-snmp-mibs-downloader vtun telnet radvd ndisc6 nfs-kernel-server pppoeconf ldap-utils default-mysql-client snmp
+traceroute sshfs ssh msmtp cadaver urlview bridge-utils netcat-openbsd rsync smitools ntpsec-ntpdate madwimax sipcalc
+snmp-mibs-downloader telnet radvd ndisc6 nfs-kernel-server pppoeconf ldap-utils default-mysql-client snmp
 smbclient macchanger tcpreplay tshark curl mosh bmon conntrack
 strongswan libcharon-extra-plugins libstrongswan-extra-plugins libstrongswan-standard-plugins
 wireguard-tools
@@ -37,8 +37,8 @@ genisoimage xsltproc xorriso db-util xmlstarlet exiv2 zip vmfs-tools pax plzip p
 
 # filesystem/disk related
 dump jfsutils dosfstools exfat-fuse lvm2 zfs-fuse reiserfsprogs btrfs-progs xfsdump encfs bindfs e2fsprogs autofs fscrypt
-squashfs-tools mbr kpartx gpart gdisk grub2 grub-efi-amd64-bin mpt-status reiser4progs eject dmraid sdparm efibootmgr efivar
-libblockdev-mdraid2 libblockdev-crypto2 efitools
+squashfs-tools mbr kpartx gpart gdisk grub2 grub-efi-amd64-bin mpt-status eject sdparm efibootmgr efivar
+efitools
 ncdu
 
 # virtualization
@@ -48,7 +48,7 @@ kexec-tools open-vm-tools lxc qemu-utils vde2-cryptcab ovmf qemu-system-gui
 systemd-sysv vim-tiny strace apt-transport-https klibc-utils libpam-modules-bin grep pcscd base-passwd inotify-tools
 gsfonts ltrace fdupes multitail powertop lsof hostname bash-completion unison sharutils cpuid dash
 acpi syslinux bximage pppconfig command-not-found ascii syslinux-common lshw uidmap libmtp-runtime ruby-sqlite3 auditd
-hexedit rdiff-backup udpcast nano bar dkms console-data ncurses-base pcregrep silversearcher-ag alsa-utils cdebootstrap
+hexedit rdiff-backup udpcast nano bar dkms console-data ncurses-base silversearcher-ag alsa-utils cdebootstrap
 libnss3-tools inxi mtr-tiny ebtables netpbm tmux iotop diffutils resolvconf busybox-static screen
 pwgen wamerican-small findutils xml-core runit tre-agrep gnutls-bin htop login lockfile-progs idn irqbalance locales
 lksctp-tools libplist-utils libjpeg-turbo-progs less at bc cryptsetup dc expect info sqlite3 time ed vim jq yq
@@ -59,8 +59,8 @@ systemd-timesyncd xxd
 krb5-user krb5-pkinit kstart
 opensc opensc-pkcs11 pkcs11-data scdaemon gnupg-pkcs11-scd paperkey zerofree chntpw fcrackzip rifiuti2 flashrom
 bluez-hcidump p0f scrounge-ntfs testdisk md5deep medusa geoip-database
-geoip-bin ike-scan ssldump dns2tcp ext3grep rsh-client netcat-traditional aircrack-ng foremost ophcrack-cli
-android-tools-fastboot pkcs11-dump tsocks dumpasn1 hping3 python3-scapy makedumpfile fping pnscan fpdns
+geoip-bin ike-scan ssldump dns2tcp ext3grep netcat-traditional aircrack-ng foremost ophcrack-cli
+android-tools-fastboot pkcs11-dump tsocks hping3 python3-scapy makedumpfile fping pnscan fpdns
 ssdeep extundelete arpwatch gvpe nss-passwords mdns-scan ptunnel android-tools-adb dcfldd samdump2 ngrep
 android-sdk-platform-tools-common
 tor proxychains4 qtox
@@ -80,18 +80,19 @@ gnome-session-flashback gnome-shell-extensions gnome-tweaks gnome-screenshot
 gnome-system-monitor ssh-askpass-gnome gnome-disk-utility gnome-nettool gnome-power-manager
 gvfs-backends gvfs-fuse
 seahorse seahorse-nautilus gkbd-capplet gnome-terminal gdm3 gnome-control-center
-colord evince gnome-bluetooth gnome-font-viewer libgdk-pixbuf2.0-bin
+colord evince gnome-font-viewer libgdk-pixbuf2.0-bin
 package-update-indicator gnome-screensaver
 network-manager-vpnc-gnome network-manager-gnome network-manager-openvpn-gnome network-manager-openconnect-gnome
 network-manager-pptp-gnome network-manager-strongswan gnome-session
+gnome-session-xsession
 nautilus-extension-gnome-terminal
 evolution evolution-plugins evolution-ews
-gnome-shell-extension-prefs gnome-shell-extension-appindicator gnome-shell-extension-dashtodock gnome-shell-extension-top-icons-plus
-rtkit pipewire-media-session-pulseaudio libspa-0.2-bluetooth
+gnome-shell-extension-prefs gnome-shell-extension-appindicator gnome-shell-extension-dashtodock
+rtkit libspa-0.2-bluetooth
 
 # programs depending on X11 libraries etc.
 libqt5x11extras5 gphoto2 wireshark tcpflow virt-viewer avahi-discover qemu-kvm dsniff
-guymager wkhtmltopdf mutt ht pcsc-tools poppler-utils poppler-data imagemagick gitk
+guymager mutt ht pcsc-tools poppler-utils poppler-data imagemagick gitk
 git-gui meld dosbox zim rdesktop unison-gtk gtkterm ddd gparted xdg-utils xdg-user-dirs
 dbus-user-session peek qdirstat dbus-x11 ibus-gtk4
 
@@ -113,20 +114,21 @@ geary
 
 # productivity
 gnome-clocks
-eog file-roller vinagre brasero cheese baobab transmission gucharmap
+eog file-roller brasero cheese baobab transmission gucharmap
+remmina remmina-plugin-rdp remmina-plugin-secret remmina-plugin-vnc
 totem-plugins gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools
-gnome-calculator xpad gedit-plugins ghex xzoom
+gnome-calculator xpad gedit-plugins ghex
 gnome-sound-recorder
 drawing
 
 # other gui
 libgtk2.0-bin pavucontrol vim-gtk3 sound-theme-freedesktop
-twm xclip software-properties-common
+twm xclip packagekit-tools
 xfonts-unifont xfonts-terminus fonts-noto-color-emoji fonts-unifont
 fonts-liberation
 synaptic terminator mousetweaks
-libcanberra-gtk-module libcanberra-gtk3-module libcanberra-pulse pulseaudio-module-bluetooth blueman xinput task-desktop xterm
-smart-notifier conky xbacklight keepassxc gtk2-engines-pixbuf
+libcanberra-gtk3-module libcanberra-pulse pulseaudio-module-bluetooth blueman xinput task-desktop xterm
+smart-notifier conky-all xbacklight keepassxc gtk2-engines-pixbuf
 
 # development
 libtool debhelper libasound2-dev python3-lazr.restfulclient flex libssl-dev bzr dwarfdump libxml2-dev
