@@ -89,6 +89,7 @@ nautilus-extension-gnome-terminal
 evolution evolution-plugins evolution-ews
 gnome-shell-extension-prefs gnome-shell-extension-appindicator gnome-shell-extension-dashtodock
 rtkit libspa-0.2-bluetooth
+gnome-packagekit gnome-software-plugin-flatpak gnome-software-plugin-deb gnome-software-plugin-snap
 
 # programs depending on X11 libraries etc.
 libqt5x11extras5 gphoto2 wireshark tcpflow virt-viewer avahi-discover qemu-kvm dsniff
@@ -126,7 +127,7 @@ libgtk2.0-bin pavucontrol vim-gtk3 sound-theme-freedesktop
 twm xclip packagekit-tools
 xfonts-unifont xfonts-terminus fonts-noto-color-emoji fonts-unifont
 fonts-liberation
-synaptic terminator mousetweaks
+terminator mousetweaks
 libcanberra-gtk3-module libcanberra-pulse pulseaudio-module-bluetooth blueman xinput task-desktop xterm
 smart-notifier conky-all xbacklight keepassxc gtk2-engines-pixbuf
 
