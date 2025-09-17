@@ -43,6 +43,7 @@ ncdu
 
 # virtualization
 kexec-tools open-vm-tools lxc qemu-utils vde2-cryptcab ovmf qemu-system-gui
+qemu-system-modules-spice
 
 # basic packages
 systemd-sysv vim-tiny strace apt-transport-https klibc-utils libpam-modules-bin grep pcscd base-passwd inotify-tools
@@ -90,6 +91,7 @@ evolution evolution-plugins evolution-ews
 gnome-shell-extension-prefs gnome-shell-extension-appindicator gnome-shell-extension-dashtodock
 rtkit libspa-0.2-bluetooth
 gnome-packagekit gnome-software-plugin-flatpak gnome-software-plugin-deb gnome-software-plugin-snap
+gnome-logs
 
 # programs depending on X11 libraries etc.
 libqt5x11extras5 gphoto2 wireshark tcpflow virt-viewer avahi-discover qemu-kvm dsniff
@@ -114,12 +116,12 @@ polari
 geary
 
 # productivity
-gnome-clocks
-loupe file-roller brasero cheese baobab transmission gucharmap
-remmina remmina-plugin-rdp remmina-plugin-secret remmina-plugin-vnc
+gnome-clocks gnome-calendar gnome-contacts gnome-connections gnome-snapshot
+loupe file-roller brasero transmission gucharmap gnome-characters
 totem-plugins gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools
-gnome-calculator xpad gedit-plugins ghex
+gnome-calculator xpad gnome-text-editor ghex
 gnome-sound-recorder
+gnome-boxes
 drawing
 
 # other gui
