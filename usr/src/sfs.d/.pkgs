@@ -128,7 +128,7 @@ twm xclip packagekit-tools
 xfonts-unifont xfonts-terminus fonts-noto-color-emoji fonts-unifont
 fonts-liberation
 terminator mousetweaks
-libcanberra-gtk3-module libcanberra-pulse pulseaudio-module-bluetooth blueman xinput task-desktop xterm
+libcanberra-gtk3-module libcanberra-pulse blueman xinput task-desktop xterm
 smart-notifier conky-all xbacklight keepassxc gtk2-engines-pixbuf
 wireplumber pipewire-pulse pipewire-audio pipewire-alsa
 
