@@ -39,7 +39,7 @@ genisoimage xsltproc xorriso db-util xmlstarlet exiv2 zip vmfs-tools pax plzip p
 dump jfsutils dosfstools exfat-fuse lvm2 zfs-fuse reiserfsprogs btrfs-progs xfsdump encfs bindfs e2fsprogs autofs fscrypt
 squashfs-tools mbr kpartx gpart gdisk grub2 grub-efi-amd64-bin mpt-status eject sdparm efibootmgr efivar
 efitools
-ncdu
+ncdu fdisk
 
 # virtualization
 kexec-tools open-vm-tools lxc qemu-utils vde2-cryptcab ovmf qemu-system-gui
