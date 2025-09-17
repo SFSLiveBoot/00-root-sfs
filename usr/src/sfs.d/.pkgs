@@ -44,6 +44,7 @@ ncdu fdisk
 # virtualization
 kexec-tools open-vm-tools lxc qemu-utils vde2-cryptcab ovmf qemu-system-gui
 qemu-system-modules-spice
+virt-manager gir1.2-spiceclientgtk-3.0
 
 # basic packages
 systemd-sysv vim-tiny strace apt-transport-https klibc-utils libpam-modules-bin grep pcscd base-passwd inotify-tools
