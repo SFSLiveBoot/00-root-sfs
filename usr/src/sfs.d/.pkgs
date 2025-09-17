@@ -115,7 +115,7 @@ geary
 
 # productivity
 gnome-clocks
-eog file-roller brasero cheese baobab transmission gucharmap
+loupe file-roller brasero cheese baobab transmission gucharmap
 remmina remmina-plugin-rdp remmina-plugin-secret remmina-plugin-vnc
 totem-plugins gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-tools
 gnome-calculator xpad gedit-plugins ghex
@@ -130,6 +130,7 @@ fonts-liberation
 terminator mousetweaks
 libcanberra-gtk3-module libcanberra-pulse pulseaudio-module-bluetooth blueman xinput task-desktop xterm
 smart-notifier conky-all xbacklight keepassxc gtk2-engines-pixbuf
+wireplumber pipewire-pulse pipewire-audio pipewire-alsa
 
 # development
 libtool debhelper libasound2-dev python3-lazr.restfulclient flex libssl-dev bzr dwarfdump libxml2-dev
