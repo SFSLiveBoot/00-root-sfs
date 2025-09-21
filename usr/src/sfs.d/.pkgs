@@ -90,6 +90,7 @@ gnome-session-xsession
 nautilus-extension-gnome-terminal
 evolution evolution-plugins evolution-ews
 gnome-shell-extension-prefs gnome-shell-extension-appindicator gnome-shell-extension-dashtodock
+gnome-shell-extension-tiling-assistant
 rtkit libspa-0.2-bluetooth
 gnome-packagekit gnome-software-plugin-flatpak gnome-software-plugin-deb gnome-software-plugin-snap
 gnome-logs
