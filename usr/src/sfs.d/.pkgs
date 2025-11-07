@@ -143,3 +143,4 @@ bison mercurial libelf-dev
 zlib1g-dev libbz2-dev
 opencl-c-headers libgmp-dev
 pkg-config
+fish starship
