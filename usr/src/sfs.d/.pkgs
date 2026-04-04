@@ -135,6 +135,7 @@ terminator mousetweaks
 libcanberra-gtk3-module libcanberra-pulse blueman xinput task-desktop xterm
 smart-notifier conky-all xbacklight keepassxc gtk2-engines-pixbuf
 wireplumber pipewire-pulse pipewire-audio pipewire-alsa
+xsensors
 
 # development
 libtool debhelper libasound2-dev python3-lazr.restfulclient flex libssl-dev bzr dwarfdump libxml2-dev
