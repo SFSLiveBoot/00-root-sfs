@@ -93,6 +93,7 @@ gnome-shell-extension-prefs gnome-shell-extension-appindicator gnome-shell-exten
 gnome-shell-extension-tiling-assistant
 rtkit libspa-0.2-bluetooth
 gnome-packagekit gnome-software-plugin-flatpak gnome-software-plugin-deb gnome-software-plugin-snap
+flatseal
 gnome-logs
 
 # programs depending on X11 libraries etc.
