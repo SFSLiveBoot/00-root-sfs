@@ -17,9 +17,9 @@ libsysfs2 libengine-pkcs11-openssl libgettextpo0 libdb1-compat
 
 # hardware support
 usbmuxd atmel-firmware firmware-b43-installer pcmciautils hwdata dmidecode socat libimobiledevice-utils ipheth-utils
-rfkill vbetool fbterm gpm obexfs bluetooth kbd usb-modeswitch firmware-linux
+rfkill vbetool fbterm fbset gpm obexfs bluetooth kbd usb-modeswitch firmware-linux
 firmware-iwlwifi firmware-ath9k-htc firmware-brcm80211 tlp libu2f-udev firmware-linux firmware-realtek
-firmware-atheros firmware-sof-signed
+firmware-atheros firmware-sof-signed firmware-intel-graphics
 
 # networking
 ifenslave cifs-utils tcptraceroute freetds-bin hostapd wpasupplicant winbind tcpdump aria2 ftp atftp
@@ -30,6 +30,7 @@ smbclient macchanger tcpreplay tshark curl mosh bmon conntrack
 strongswan libcharon-extra-plugins libstrongswan-extra-plugins libstrongswan-standard-plugins
 wireguard-tools
 iptables httpie syncthing
+wireless-regdb
 
 # file format support
 p7zip-rar unrar cpio nkf xz-utils elfutils cdrdao lzop lzip gzip binutils-multiarch unzip libxml2-utils
