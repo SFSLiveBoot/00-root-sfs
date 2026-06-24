@@ -105,7 +105,7 @@ dbus-user-session peek qdirstat dbus-x11 ibus-gtk4
 
 ## virtual desktop
 tigervnc-scraping-server tigervnc-standalone-server xvfb x11vnc xserver-xephyr
-tigervnc-viewer
+tigervnc-viewer tigervnc-tools
 
 ## x11 drivers
 xserver-xorg-input-wacom xserver-xorg-input-joystick
