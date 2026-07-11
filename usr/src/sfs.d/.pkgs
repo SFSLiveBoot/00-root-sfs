@@ -35,6 +35,7 @@ wireless-regdb
 # file format support
 p7zip-rar unrar cpio nkf xz-utils elfutils cdrdao lzop lzip gzip binutils-multiarch unzip libxml2-utils
 genisoimage xsltproc xorriso db-util xmlstarlet exiv2 zip vmfs-tools pax plzip pigz tnef cabextract fuseext2 lzma lz4
+zstd
 
 # filesystem/disk related
 dump jfsutils dosfstools exfat-fuse lvm2 zfs-fuse reiserfsprogs btrfs-progs xfsdump encfs bindfs e2fsprogs autofs fscrypt
