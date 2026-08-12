@@ -29,7 +29,7 @@ snmp-mibs-downloader telnet radvd ndisc6 nfs-kernel-server pppoeconf ldap-utils 
 smbclient macchanger tcpreplay tshark curl mosh bmon conntrack
 strongswan libcharon-extra-plugins libstrongswan-extra-plugins libstrongswan-standard-plugins
 wireguard-tools
-iptables httpie syncthing
+iptables httpie syncthing rclone
 wireless-regdb
 
 # file format support
