@@ -19,7 +19,7 @@ libsysfs2 libengine-pkcs11-openssl libgettextpo0 libdb1-compat
 usbmuxd atmel-firmware firmware-b43-installer pcmciautils hwdata dmidecode socat libimobiledevice-utils ipheth-utils
 rfkill vbetool fbterm fbset gpm obexfs bluetooth kbd usb-modeswitch firmware-linux
 firmware-iwlwifi firmware-ath9k-htc firmware-brcm80211 tlp libu2f-udev firmware-linux firmware-realtek
-firmware-atheros firmware-sof-signed firmware-intel-graphics
+firmware-atheros firmware-sof-signed firmware-intel-graphics firmware-carl9170
 
 # networking
 ifenslave cifs-utils tcptraceroute freetds-bin hostapd wpasupplicant winbind tcpdump aria2 ftp atftp
